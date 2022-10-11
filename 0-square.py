@@ -1,9 +1,6 @@
 #!/usr/bin/python3
+Square = __import__('0-square').Square
 
-"""Write an empty class Square that defines a square"""
-
-
-class Square:
-        """ Pass Works to do nothing in the class"""
-
-        pass
+my_square = Square()
+print(type(my_square))
+print(my_square.__dict__)
